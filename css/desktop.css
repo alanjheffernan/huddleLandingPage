@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 48px;
+}
+
+h3{
+    font-weight: 400;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 300;
+    color: hsl(210, 1%, 62%);
+}
+
+/***********NAV-BAR***********/
+
+nav{
+    width: 90vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-button button{
+    width: 10vw;
+    min-width: 120px;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 25px;
+    background: none;
+    padding: 5%;
+    transition: ease 0.3s;
+    
+}
+
+.action-button button:hover{
+    transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+}
+
+/***********TITLE-SECTION***********/
+
+.title-section-wrapper{
+
+    width: 80vw;
+    margin: 0 auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.title-tag{
+    width: 55vw;
+}
+
+#get-started-button{
+    width: 25vw;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 50px;
+    padding: 5%;
+}
+
+.title-image{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.title-image img{
+    align-content: center;
+    margin: 0 auto;
+}
+
+.title-stats{
+    width: 60vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-stats-numbers h3{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+/***********FEATURE-SECTION***********/
+
+.features{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.feature-body{
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.feature-tag{
+    width: 60%;
+}
+
+.feature-image{
+    display: flex;
+    align-items: flex-end;
+}
+
+.feature-image img{
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+}

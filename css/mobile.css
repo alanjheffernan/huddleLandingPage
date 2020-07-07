@@ -1,0 +1,9 @@
+@media only screen and (max-width: 450px){
+
+    .action-button button{
+        font-size: 11px;
+        border : 1px solid hsl(322, 100%, 66%);
+        min-width: 100px;
+        padding: 4%;
+    }
+}
